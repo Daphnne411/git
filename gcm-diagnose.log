@@ -1,0 +1,181 @@
+﻿Diagnose log at 2026-09-03T10:22:43Z
+
+AppPath: C:\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Git\mingw64\bin\
+Version: 2.9.1+6760f0ef069c994aa2bb1d703fb374986ee82a3e
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+OneDriveConsumer=C:\Users\H\OneDrive
+ProgramFiles(x86)=C:\Program Files (x86)
+USERNAME=H
+ProgramW6432=C:\Program Files
+PAGER=cat
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+OnlineServices=Online Services
+CODEX_INTERNAL_ORIGINATOR_OVERRIDE=Codex Desktop
+Path=C:\Users\H\.codex\tmp\arg0\codex-arg08dDq25;C:\Users\H\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\override;E:\VMware\bin\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Users\H\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\powershell;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\HP\OMEN-Broadcast\Common;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;E:\;C:\Program Files\Bandizip\;C:\Git\cmd;C:\Users\H\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;C:\Users\H\.cache\codex-runtimes\codex-primary-runtime\dependencies\bin\fallback;C:\Users\H\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;C:\Users\H\AppData\Local\OpenAI\Codex\bin\fce30c272acde6f9;C:\Users\H\AppData\Local\OpenAI\Codex\bin\87e5fb3433dabab1
+PUBLIC=C:\Users\Public
+RUST_LOG=warn
+PROCESSOR_REVISION=b701
+TEMP=C:\Users\H\AppData\Local\Temp
+USERPROFILE=C:\Users\H
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+LOGONSERVER=\\LAPTOP-KK46O7LL
+TERM=dumb
+NO_COLOR=1
+SystemRoot=C:\windows
+ZSH_TMUX_AUTOSTARTED=true
+CODEX_THREAD_ID=01a066aa-3d23-7801-8d7e-e1e2fac7afd7
+CODEX_MCP_NODE_PATH=C:\Users\H\AppData\Local\OpenAI\Codex\runtimes\cua_node\2c6075088d3180ec\bin\node.exe
+GH_PAGER=cat
+OneDrive=C:\Users\H\OneDrive
+PROCESSOR_ARCHITECTURE=AMD64
+CommonProgramFiles=C:\Program Files\Common Files
+windir=C:\windows
+CODEX_APP_TOOLS_PIPE_PATH=\\.\pipe\codex-browser-use-2e01e4e4-50ac-44f1-8ea0-5e5fa0302217
+CODEX_SHELL=1
+NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S=8e172ec9f458f2e636fc69a1b8c68c217f6bb8d10c41f70a05a0878b73863701
+ProgramData=C:\ProgramData
+platformcode=M7
+ZSH_TMUX_AUTOSTART=false
+HOMEPATH=\Users\H
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+TMP=C:\Users\H\AppData\Local\Temp
+SHELL=C:\windows\System32\WindowsPowerShell\v1.0\powershell.exe
+DISABLE_AUTO_UPDATE=true
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE=1
+GIT_TRACE2_PARENT_SID=180d1130-70fe-44f2-a056-aa065eed443a
+SystemDrive=C:
+NUMBER_OF_PROCESSORS=24
+OS=Windows_NT
+CODEX_SESSION_ID=01a066aa-3d23-7801-8d7e-e1e2fac7afd7
+CODEX_PERMISSION_PROFILE=:workspace
+LANG=C.UTF-8
+ComSpec=C:\windows\system32\cmd.exe
+USERDOMAIN_ROAMINGPROFILE=LAPTOP-KK46O7LL
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PSModulePath=C:\Users\H\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+CODEX_SANDBOX_NETWORK_DISABLED=1
+ProgramFiles=C:\Program Files
+CODEX_CI=1
+LC_ALL=C.UTF-8
+APPDATA=C:\Users\H\AppData\Roaming
+USERDOMAIN=LAPTOP-KK46O7LL
+COMPUTERNAME=LAPTOP-KK46O7LL
+LC_CTYPE=C.UTF-8
+LOCALAPPDATA=C:\Users\H\AppData\Local
+GIT_PAGER=cat
+COLORTERM=
+RegionCode=APJ
+PROCESSOR_LEVEL=6
+LOG_FORMAT=json
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\H\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\H\AppData\Local\Temp\ce26484a8a39b31296a54956'... OK
+Reading from temporary file 'C:\Users\H\AppData\Local\Temp\ce26484a8a39b31296a54956'... OK
+Deleting temporary file 'C:\Users\H\AppData\Local\Temp\ce26484a8a39b31296a54956'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\H
+UserDataDirectoryPath: C:\Users\H\.gcm
+GetCurrentDirectory(): C:\Users\H\Desktop\GIT
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com... OK
+Sending HEAD request to https://example.com... OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:60161/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.55.0.windows.5'
+Locating current repository...Not inside a Git repository.
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Git/etc/gitconfig	core.fscache=true
+file:C:/Git/etc/gitconfig	core.symlinks=false
+file:C:/Git/etc/gitconfig	pull.rebase=false
+file:C:/Git/etc/gitconfig	credential.helper=manager
+file:C:/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Git/etc/gitconfig	init.defaultbranch=master
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\H\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\H\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
